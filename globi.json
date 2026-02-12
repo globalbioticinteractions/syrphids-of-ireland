@@ -1,0 +1,155 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "SyrphidsOfIreland.txt",
+    "dcterms:bibliographicCitation" : "Martin Speight, M. and Gittings, T.. 2025. Data on the distribution of Irish hoverflies. National Biodiversity Data Centre. https://maps.biodiversityireland.ie/Dataset/159",
+    "referenceUrl": "https://maps.biodiversityireland.ie/Dataset/159",
+    "delimiter" : "\t",
+    "interactionTypeName": "visits",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002618",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "RecordKey",
+        "titles" : "RecordKey",
+        "datatype" : "string"
+      }, {
+        "name" : "SurveyKey",
+        "titles" : "SurveyKey",
+        "datatype" : "string"
+      }, {
+        "name" : "SampleKey",
+        "titles" : "SampleKey",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "StartDate",
+        "datatype" : { "base": "date", "format": "dd/mm/yyyy" }
+      }, {
+        "name" : "EndDate",
+        "titles" : "EndDate",
+        "datatype" : "string"
+      }, {
+        "name" : "DateType",
+        "titles" : "DateType",
+        "datatype" : "string"
+      }, {
+        "name" : "Date",
+        "titles" : "Date",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonId",
+        "titles" : "TaxonVersionKey",
+        "datatype": {
+          "base" : "string",
+          "valueUrl": "https://species.nbnatlas.org/species/{taxonTaxonId}"
+        }
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "TaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "GridReference",
+        "titles" : "GridReference",
+        "datatype" : "string"
+      }, {
+        "name" : "East",
+        "titles" : "East",
+        "datatype" : "string"
+      }, {
+        "name" : "North",
+        "titles" : "North",
+        "datatype" : "string"
+      }, {
+        "name" : "Projection",
+        "titles" : "Projection",
+        "datatype" : "string"
+      }, {
+        "name" : "Precision",
+        "titles" : "Precision",
+        "datatype" : "string"
+      }, {
+        "name" : "SiteKey",
+        "titles" : "SiteKey",
+        "datatype" : "string"
+      }, {
+        "name" : "SiteName",
+        "titles" : "SiteName",
+        "datatype" : "string"
+      }, {
+        "name" : "Recorder",
+        "titles" : "Recorder",
+        "datatype" : "string"
+      }, {
+        "name" : "Determiner",
+        "titles" : "Determiner",
+        "datatype" : "string"
+      }, {
+        "name" : "ZeroAbundance",
+        "titles" : "ZeroAbundance",
+        "datatype" : "string"
+      }, {
+        "name" : "UnderValidation",
+        "titles" : "UnderValidation",
+        "datatype" : "string"
+      }, {
+        "name" : "ImagePath",
+        "titles" : "ImagePath",
+        "datatype" : "string"
+      }, {
+        "name" : "Record comment",
+        "titles" : "Record comment",
+        "datatype" : "string"
+      }, {
+        "name" : "Abundance",
+        "titles" : "Abundance",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Habitat description",
+        "datatype" : "string"
+      }, {
+        "name" : "Determiner name",
+        "titles" : "Determiner name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceLifeStageName",
+        "titles" : "Life stage",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecord",
+        "titles" : "Sampling method",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "Sex",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "County",
+        "datatype" : "string"
+      }, {
+        "name" : "Identification literature used",
+        "titles" : "Identification literature used",
+        "datatype" : "string"
+      }, {
+        "name" : "Survey name",
+        "titles" : "Survey name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "separator": ",",
+        "titles" : "Foraging on",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
