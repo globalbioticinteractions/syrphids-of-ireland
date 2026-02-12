@@ -14,6 +14,9 @@
     "delimiter" : "\t",
     "interactionTypeName": "visits",
     "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002618",
+    "_comment": "see https://github.com/globalbioticinteractions/globalbioticinteractions/issues/1141",
+    "decimalLatitude": 53.4494762,
+    "decimalLongitude": -7.5029786,
     "headerRowCount" : 1,
     "null" : [ "" ],
     "tableSchema" : {
