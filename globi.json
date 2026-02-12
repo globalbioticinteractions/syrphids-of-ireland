@@ -18,7 +18,7 @@
     "decimalLatitude": 53.4494762,
     "decimalLongitude": -7.5029786,
     "headerRowCount" : 1,
-    "null" : [ "" ],
+    "null" : [ "N/A" ],
     "tableSchema" : {
       "columns" : [ {
         "name" : "RecordKey",
