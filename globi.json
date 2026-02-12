@@ -9,7 +9,7 @@
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
     "url" : "SyrphidsOfIreland.txt",
-    "dcterms:bibliographicCitation" : "Martin Speight, M. and Gittings, T.. 2025. Data on the distribution of Irish hoverflies. National Biodiversity Data Centre. https://maps.biodiversityireland.ie/Dataset/159",
+    "dcterms:bibliographicCitation" : "Speight, M. and Gittings, T.. 2025. Hoverflies (Syrphrids) of Ireland. National Biodiversity Data Centre. https://maps.biodiversityireland.ie/Dataset/159",
     "referenceUrl": "https://maps.biodiversityireland.ie/Dataset/159",
     "delimiter" : "\t",
     "interactionTypeName": "visits",
